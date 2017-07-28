@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace AspNetCore.ExistingDb.Repositories
@@ -37,6 +38,14 @@ namespace AspNetCore.ExistingDb.Repositories
 		{
 			get { return _entities; }
 		}*/
+
+		protected static IEnumerable<string> AllColumnNames
+		{
+			get
+			{
+				return typeof(Ent).GetProperties(BindingFlags.Public | BindingFlags.Instance).Select(p => p.Name);
+			}
+		}
 
 		public GenericRepository(Cont context)
 		{
