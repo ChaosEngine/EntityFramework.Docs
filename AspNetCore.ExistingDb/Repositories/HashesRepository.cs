@@ -1,4 +1,5 @@
-﻿using EFGetStarted.AspNetCore.ExistingDb.Models;
+﻿using EFGetStarted.AspNetCore.ExistingDb;
+using EFGetStarted.AspNetCore.ExistingDb.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
