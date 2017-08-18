@@ -123,6 +123,7 @@ namespace EFGetStarted.AspNetCore.ExistingDb
 #endif
 			services.AddScoped<IBloggingRepository, BloggingRepository>();
 			services.AddScoped<IHashesRepository, HashesRepository>();
+			services.AddSingleton<IUrlHelperFactory, DomainUrlHelperFactory>();
 		}
 
 		// This method gets called by the runtime. Use this method to add services to the container.
