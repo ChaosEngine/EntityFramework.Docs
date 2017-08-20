@@ -12,6 +12,7 @@ using AspNetCore.ExistingDb;
 using AspNetCore.ExistingDb.Repositories;
 using System.Data.Common;
 using Microsoft.AspNetCore.Mvc.Razor.Compilation;
+using Microsoft.AspNetCore.Mvc.Routing;
 
 //[assembly: UserSecretsId("aspnet-AspNetCore.ExistingDb-20161230022416")]
 

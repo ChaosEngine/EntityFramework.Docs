@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <PackageId>AspNetCore.ExistingDb</PackageId>
     <UserSecretsId>aspnet-AspNetCore.ExistingDb-20161230022416</UserSecretsId>
-    <RuntimeFrameworkVersion>1.1.1</RuntimeFrameworkVersion>
+    <RuntimeFrameworkVersion>1.1.2</RuntimeFrameworkVersion>
     <MvcRazorCompileOnPublish>true</MvcRazorCompileOnPublish>
   </PropertyGroup>
 
