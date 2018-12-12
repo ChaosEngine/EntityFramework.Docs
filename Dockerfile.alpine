@@ -1,6 +1,6 @@
 FROM microsoft/dotnet:2.1-sdk-alpine AS build
 RUN apk add --update nodejs nodejs-npm
-RUN npm i gulp@next -g
+RUN npm i gulp@latest -g
 WORKDIR /build
 
 ENV DBKind="sqlite" ConnectionStrings__Sqlite="Filename=./bin/Debug/netcoreapp2.1/Blogging.db"

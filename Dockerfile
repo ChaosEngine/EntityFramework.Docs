@@ -1,7 +1,7 @@
 FROM microsoft/dotnet:2.1-sdk-stretch AS build
 RUN curl -sL https://deb.nodesource.com/setup_8.x | bash - && \
 	apt-get install -y nodejs
-RUN npm i gulp@next -g
+RUN npm i gulp@latest -g
 WORKDIR /build
 
 ENV DBKind="sqlite" ConnectionStrings__Sqlite="Filename=./bin/Debug/netcoreapp2.1/Blogging.db"
