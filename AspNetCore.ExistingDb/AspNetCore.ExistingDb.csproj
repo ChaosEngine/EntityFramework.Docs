@@ -22,7 +22,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.AspNetCore.App" />
-		<PackageReference Include="Bogus" Version="28.2.1" />
+		<PackageReference Include="Bogus" Version="32.0.2" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.6" />
 		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration" Version="2.2.3" />
 		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="2.2.4" />
