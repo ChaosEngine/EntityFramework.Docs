@@ -30,7 +30,7 @@
 		<PackageReference Include="Oracle.EntityFrameworkCore" Version="2.19.30" />
 		<!-- <PackageReference Include="IdentityManager2" Version="1.0.0-beta5" />-->
 		<PackageReference Include="IdentityManager2.AspNetIdentity" Version="1.0.0-beta3" />
-		<PackageReference Include="Lib.AspNetCore.ServerTiming" Version="2.1.0" />
+		<PackageReference Include="Lib.AspNetCore.ServerTiming" Version="4.0.0" />
 		<PackageReference Include="Microsoft.Azure.DocumentDB.Core" Version="2.6.0" />
 		<PackageReference Include="Google.Apis.YouTube.v3" Version="1.41.1.1699" />
 		<PackageReference Include="Microsoft.AspNetCore.SignalR.Protocols.MessagePack" Version="1.1.5" />
